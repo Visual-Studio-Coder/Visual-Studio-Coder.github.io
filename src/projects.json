@@ -9,7 +9,7 @@
     {
         "name": "QR Share Pro",
         "description": "Scan, generate, and share QR codes very easily. Integrated privacy features to prevent tracking from companies and convenient features like History (with scan location), and Share Sheet integrations for easily sharing friend links to Android users.",
-        "skills": ["Swift", "SwiftUI", "HTTP Requests", "QR Code Generation", "URL query parameter filtration", "Design/UX"],
+        "skills": ["Swift", "SwiftUI", "HTTP Requests", "QR Code Generation", "URL Query Parameter Filtration", "Tracker Elimination", "Design/UX"],
         "urls": ["https://apps.apple.com/us/app/qr-share-pro/id6479589995", "https://github.com/visual-studio-coder/qr-share-pro"],
         "category": "iOS Apps"
     },
@@ -23,7 +23,7 @@
     {
         "name": "youtube-titlegen",
         "description": "This is a fine-tuned LLM based on Llama 3.1 8B, trained off of the titles of top performing videos as of June 2025. Input a transcript and receive a well-worded title that should, in theory, perform well against the YouTube algorithm.\n\n(Will publish a paper and open source the project soon)",
-        "skills": ["Python", "PyTorch", "Transformers", "LLM Fine-Tuning", "Dataset Curation", "youtube-transcript-api", "Ollama"],
+        "skills": ["Python", "PyTorch", "Transformers", "LLM Fine-Tuning", "Dataset Curation", "Cosine Similarity", "youtube-transcript-api", "Ollama"],
         "category": "Machine Learning Projects"
     },
     {
