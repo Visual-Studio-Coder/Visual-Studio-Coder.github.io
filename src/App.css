@@ -184,22 +184,78 @@
 }
 
 .project-link:hover {
-  background: rgba(255, 255, 255, 0.1);
   color: #fff;
-  border-color: #fff;
+  border-bottom-color: #fff;
 }
 
-.project-item p {
-  font-size: 1.1rem;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0 0 1rem 0;
-  line-height: 1.6;
+.stats-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  vertical-align: middle;
+  transition: background 0.2s;
+}
+
+.project-link:hover .stats-badge {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
 }
 
 .project-skills {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.show-more-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.show-more-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.show-more-link::before,
+.show-more-link::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 0.3s ease;
+}
+
+.show-more-link:hover {
+  color: #fff;
+  letter-spacing: 0.2em;
+}
+
+.show-more-link:hover::before,
+.show-more-link:hover::after {
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .skill-tag {
