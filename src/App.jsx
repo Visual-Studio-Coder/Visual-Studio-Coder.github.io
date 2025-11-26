@@ -149,15 +149,18 @@ function App() {
               <span>Swift</span>
               <span>SwiftUI</span>
               <span>UIKit</span>
-              <span>JavaScript, TypeScript</span>
+              <span>JavaScript</span> 
+              <span>TypeScript</span>
               <span>SQL</span>
               <span>MongoDB</span>
+              <span>REST</span>
               <span>Systems Design</span>
               <span>UI/UX Design</span>
               <span>Automation</span>
               <span>Prompt Engineering</span>
               <span>Figma</span>
-              <span>Git + GitHub</span>
+              <span>Git</span>
+              <span>GitHub</span>
               <span>GitHub Copilot</span>
             </div>
           </div>
