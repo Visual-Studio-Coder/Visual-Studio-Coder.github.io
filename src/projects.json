@@ -21,7 +21,7 @@
         "category": "Research Projects"
     },
     {
-        "name": "youtube-titlegen",
+        "name": "Enhancing Video Title Generation: Fine-Tuning a Language Model on Transcript Data",
         "description": "This is a fine-tuned LLM based on Llama 3.1 8B, trained off of the titles of top performing videos as of June 2025. Input a transcript and receive a well-worded title that should, in theory, perform well against the YouTube algorithm.\n\n(Will publish a paper and open source the project soon)",
         "skills": ["Python", "PyTorch", "Transformers", "LLM Fine-Tuning", "Dataset Curation", "Cosine Similarity", "youtube-transcript-api", "Ollama"],
         "category": "Machine Learning Projects"
