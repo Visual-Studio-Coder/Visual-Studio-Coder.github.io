@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   const panelRef = useRef(null);
   const [githubStats, setGithubStats] = useState({});
+  const [publicRepos, setPublicRepos] = useState(0);
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -18,6 +19,17 @@ function App() {
 
   useEffect(() => {
     const fetchStats = async () => {
+      // Fetch user stats for total public repos
+      try {
+        const userResponse = await fetch('https://api.github.com/users/Visual-Studio-Coder');
+        if (userResponse.ok) {
+          const userData = await userResponse.json();
+          setPublicRepos(userData.public_repos);
+        }
+      } catch (error) {
+        console.error("Failed to fetch user stats", error);
+      }
+
       const stats = {};
       for (const project of projectsData) {
         if (project.urls) {
@@ -133,7 +145,7 @@ function App() {
               
               <div className="show-more-container">
                 <a href="https://github.com/Visual-Studio-Coder?tab=repositories" target="_blank" rel="noopener noreferrer" className="show-more-link">
-                  Show More Projects
+                  Show All Projects ({publicRepos} Public Repos)
                 </a>
               </div>
             </div>
