@@ -1,10 +1,11 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import projectsData from './projects.json';
 import './App.css';
 
 function App() {
   const panelRef = useRef(null);
+  const [githubStats, setGithubStats] = useState({});
 
   useEffect(() => {
     const tl = gsap.timeline();
@@ -13,6 +14,35 @@ function App() {
       { y: 50, opacity: 0 },
       { y: 0, opacity: 1, duration: 1.2, ease: "power3.out" }
     );
+  }, []);
+
+  useEffect(() => {
+    const fetchStats = async () => {
+      const stats = {};
+      for (const project of projectsData) {
+        if (project.urls) {
+          const githubUrl = project.urls.find(url => url.includes('github.com'));
+          if (githubUrl) {
+            try {
+              const parts = githubUrl.split('github.com/')[1].split('/');
+              const owner = parts[0];
+              const repo = parts[1];
+              
+              const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
+              if (response.ok) {
+                const data = await response.json();
+                stats[project.name] = { stars: data.stargazers_count, forks: data.forks_count };
+              }
+            } catch (error) {
+              console.error("Failed to fetch stats for", project.name, error);
+            }
+          }
+        }
+      }
+      setGithubStats(stats);
+    };
+
+    fetchStats();
   }, []);
 
   // Group projects by category
@@ -68,15 +98,25 @@ function App() {
                         <h3>{project.name}</h3>
                         {project.urls && (
                           <div className="project-links">
-                            {project.urls.map((url, i) => (
-                              <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="project-link">
-                                {url.includes('github') ? 'GitHub' : url.includes('youtube') ? 'Demo' : url.includes('doi') ? 'Paper' : url.includes('apps.apple.com') ? 'App Store' : 'Link'}
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                  <path d="M7 17L17 7" />
-                                  <path d="M7 7h10v10" />
-                                </svg>
-                              </a>
-                            ))}
+                            {project.urls.map((url, i) => {
+                              const isGithub = url.includes('github');
+                              const stats = isGithub ? githubStats[project.name] : null;
+                              return (
+                                <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="project-link">
+                                  {isGithub ? 'GitHub' : url.includes('youtube') ? 'Demo' : url.includes('doi') ? 'Paper' : url.includes('apps.apple.com') ? 'App Store' : 'Link'}
+                                  {stats && (
+                                    <span className="stats-badge">
+                                      <span className="stat-item">★ {stats.stars}</span>
+                                      <span className="stat-item">⑂ {stats.forks}</span>
+                                    </span>
+                                  )}
+                                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M7 17L17 7" />
+                                    <path d="M7 7h10v10" />
+                                  </svg>
+                                </a>
+                              );
+                            })}
                           </div>
                         )}
                       </div>
@@ -90,6 +130,12 @@ function App() {
                   ))}
                 </div>
               ))}
+              
+              <div className="show-more-container">
+                <a href="https://github.com/Visual-Studio-Coder?tab=repositories" target="_blank" rel="noopener noreferrer" className="show-more-link">
+                  Show More
+                </a>
+              </div>
             </div>
           </div>
 
@@ -144,6 +190,20 @@ function App() {
               </a>
               <a href="https://www.raycast.com/Visual-Studio-Coder" target="_blank" rel="noopener noreferrer" className="connect-link">
                 Raycast
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M7 17L17 7" />
+                  <path d="M7 7h10v10" />
+                </svg>
+              </a>
+              <a href="https://huggingface.co/Visual-Studio-Coder" target="_blank" rel="noopener noreferrer" className="connect-link">
+                Hugging Face
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M7 17L17 7" />
+                  <path d="M7 7h10v10" />
+                </svg>
+              </a>
+              <a href="https://buymeacoffee.com/visualstudiocoder" target="_blank" rel="noopener noreferrer" className="connect-link">
+                Buy Me a Coffee
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M7 17L17 7" />
                   <path d="M7 7h10v10" />
