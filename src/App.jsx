@@ -103,7 +103,7 @@ function App() {
                               const stats = isGithub ? githubStats[project.name] : null;
                               return (
                                 <a key={i} href={url} target="_blank" rel="noopener noreferrer" className="project-link">
-                                  {isGithub ? 'GitHub' : url.includes('youtube') ? 'Demo' : url.includes('doi') ? 'Paper' : url.includes('apps.apple.com') ? 'App Store' : 'Link'}
+                                  {isGithub ? 'GitHub' : url.includes('youtube') ? 'Demo' : url.includes('doi') ? 'Paper' : url.includes('apps.apple.com') ? 'App Store' : url.includes('marketplace.visualstudio.com') ? 'VS Code Marketplace' : 'Link'}
                                   {stats && (
                                     <span className="stats-badge">
                                       <span className="stat-item">★ {stats.stars}</span>

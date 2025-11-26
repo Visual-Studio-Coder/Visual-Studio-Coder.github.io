@@ -28,7 +28,7 @@
     },
     {
         "name": "Autolab for Lynbrook High School",
-        "description": "This is a VS-Code extension I developed for my High School AP CS A class to make submitting assignments to Autolab, an automated grading system, much faster. It allows for downloading assignments, submitting them, and reviewing grades. This means students no longer have to mess with annoying Zip files and drag-and-drop headaches. It also includes a neat feature to auto-fill out the Java header required files with student info (Period, Date, Name, etc.).",
+        "description": "This is a VS Code extension I developed for my high school AP CS A class to make submitting assignments to Autolab, an automated grading system, much faster. It allows for downloading assignments, submitting them, and reviewing grades. This means students no longer have to deal with annoying .zip files and drag-and-drop headaches. It also includes a neat feature to auto-fill the required Java header lines with student info (Period, Date, Name, etc.) wherever applicable.",
         "skills": ["TypeScript", "VS Code Extension API", "Node.js", "REST APIs", "Session Scraping"],
         "category": "Productivity Tools",
         "urls": ["https://marketplace.visualstudio.com/items?itemName=Visual-Studio-Coder.autolab-for-lynbrook-high-school", "https://github.com/Visual-Studio-Coder/autolab-for-lynbrook-high-school"]
