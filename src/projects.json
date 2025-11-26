@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Recap AI",
+        "description": "An iOS app, with working Android prototype, for inputting a student's class notes to convert it into a quiz. Although this app has been created multiple times, my version is thorough, supporting various attachment options (images, text, youtube links, pdfs), question formats (MCQ, multi-select, short answer), and offers AI-generated explanations and performance feedback.",
+        "skills": ["Swift", "SwiftUI", "JSON Serialization", "Gemini API", "Markdown", "Design/UX"],
+        "category": "iOS Apps",
+        "urls": ["https://apps.apple.com/us/app/recap-ai/id6602897472", "https://www.youtube.com/watch?v=HSrOVvkOAQ0", "https://github.com/visual-studio-coder/recap"]
+    },
+    {
+        "name": "QR Share Pro",
+        "description": "Scan, generate, and share QR codes very easily. Integrated privacy features to prevent tracking from companies and convenient features like History (with scan location), and Share Sheet integrations for easily sharing friend links to Android users.",
+        "skills": ["Swift", "SwiftUI", "HTTP Requests", "QR Code Generation", "URL query parameter filtration", "Design/UX"],
+        "urls": ["https://apps.apple.com/us/app/qr-share-pro/id6479589995", "https://github.com/visual-studio-coder/qr-share-pro"],
+        "category": "iOS Apps"
+    },
+    {
+        "name": "Unlocking Efficiency: A Multi-Language Benchmarking Study on MNIST",
+        "description": "Under the guidance of a college professor, a research paper was written for this project that compares C++, Rust, and Python for training an MLP on MNIST, focusing on performance metrics such as execution time, memory usage, and energy consumption.",
+        "skills": ["C++", "Rust", "Python", "Machine Learning", "MNIST Dataset", "Performance Benchmarking", "LaTeX"],
+        "urls": ["https://doi.org/10.36227/techrxiv.175295288.85168709/v1", "https://github.com/Visual-Studio-Coder/mnist_linux_benchmark"],
+        "category": "Research Projects"
+    },
+    {
+        "name": "youtube-titlegen",
+        "description": "This is a fine-tuned LLM based on Llama 3.1 8B, trained off of the titles of top performing videos as of June 2025. Input a transcript and receive a well-worded title that should, in theory, perform well against the YouTube algorithm.\n\n(Will publish a paper and open source the project soon)",
+        "skills": ["Python", "PyTorch", "Transformers", "LLM Fine-Tuning", "Dataset Curation", "youtube-transcript-api", "Ollama"],
+        "category": "Machine Learning Projects"
+    },
+    {
+        "name": "Autolab for Lynbrook High School",
+        "description": "This is a VS-Code extension I developed for my High School AP CS A class to make submitting assignments to Autolab, an automated grading system, much faster. It allows for downloading assignments, submitting them, and reviewing grades. This means students no longer have to mess with annoying Zip files and drag-and-drop headaches. It also includes a neat feature to auto-fill out the Java header required files with student info (Period, Date, Name, etc.).",
+        "skills": ["TypeScript", "VS Code Extension API", "Node.js", "REST APIs", "Session Scraping"],
+        "category": "Productivity Tools",
+        "urls": ["https://marketplace.visualstudio.com/items?itemName=Visual-Studio-Coder.autolab-for-lynbrook-high-school", "https://github.com/Visual-Studio-Coder/autolab-for-lynbrook-high-school"]
+    }
+]
