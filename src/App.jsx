@@ -133,7 +133,7 @@ function App() {
               
               <div className="show-more-container">
                 <a href="https://github.com/Visual-Studio-Coder?tab=repositories" target="_blank" rel="noopener noreferrer" className="show-more-link">
-                  Show More
+                  Show More Projects
                 </a>
               </div>
             </div>
