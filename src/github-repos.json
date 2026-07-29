@@ -1,5 +1,19 @@
 [
   {
+    "name": "parkingSpotFinder",
+    "description": "AirTag-style Precision Finding for your actual parking spot, with live direction and distance, Siri, automatic parking suggestions, and Live Activities.",
+    "html_url": "https://github.com/Visual-Studio-Coder/parkingSpotFinder",
+    "homepage": null,
+    "language": "Swift",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-07-28T18:20:56Z",
+    "pushed_at": "2026-07-28T18:17:17Z"
+  },
+  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Some interesting personal website.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -10,8 +24,8 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-07-28T04:18:59Z",
-    "pushed_at": "2026-07-28T04:18:36Z"
+    "updated_at": "2026-07-28T11:31:55Z",
+    "pushed_at": "2026-07-28T11:30:24Z"
   },
   {
     "name": "polytrack-java",
@@ -650,20 +664,6 @@
     "pushed_at": "2024-10-01T22:21:05Z"
   },
   {
-    "name": "raycast-metronome",
-    "description": null,
-    "html_url": "https://github.com/Visual-Studio-Coder/raycast-metronome",
-    "homepage": null,
-    "language": "TypeScript",
-    "topics": [],
-    "stargazers_count": 4,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2025-05-25T06:13:17Z",
-    "pushed_at": "2024-12-05T14:54:09Z"
-  },
-  {
     "name": "USACO-Attempts",
     "description": null,
     "html_url": "https://github.com/Visual-Studio-Coder/USACO-Attempts",
@@ -676,6 +676,20 @@
     "archived": false,
     "updated_at": "2025-05-25T06:13:17Z",
     "pushed_at": "2024-10-17T02:11:26Z"
+  },
+  {
+    "name": "raycast-metronome",
+    "description": null,
+    "html_url": "https://github.com/Visual-Studio-Coder/raycast-metronome",
+    "homepage": null,
+    "language": "TypeScript",
+    "topics": [],
+    "stargazers_count": 4,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2025-05-25T06:13:17Z",
+    "pushed_at": "2024-12-05T14:54:09Z"
   },
   {
     "name": "raycast-schoology2",
