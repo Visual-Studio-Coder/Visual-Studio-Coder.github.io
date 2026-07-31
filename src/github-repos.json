@@ -1,5 +1,19 @@
 [
   {
+    "name": "Visual-Studio-Coder.github.io",
+    "description": "Some interesting personal website.",
+    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
+    "homepage": "https://visual-studio-coder.github.io/",
+    "language": "CSS",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-07-30T11:23:14Z",
+    "pushed_at": "2026-07-30T11:22:19Z"
+  },
+  {
     "name": "youtube-titlegen",
     "description": "This is a fine-tuned LLM based on Llama 3.1 8B, trained off of the titles of top performing videos as of June 2025. Input a 2 sentence summary of what your video is about, and receive a well-worded title that should perform well against the YouTube algorithm.",
     "html_url": "https://github.com/Visual-Studio-Coder/youtube-titlegen",
@@ -280,20 +294,6 @@
     "archived": false,
     "updated_at": "2026-07-30T02:57:33Z",
     "pushed_at": "2026-07-30T02:57:25Z"
-  },
-  {
-    "name": "Visual-Studio-Coder.github.io",
-    "description": "Some interesting personal website.",
-    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
-    "homepage": "https://visual-studio-coder.github.io/",
-    "language": "CSS",
-    "topics": [],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-07-30T02:57:33Z",
-    "pushed_at": "2026-07-30T02:57:27Z"
   },
   {
     "name": "abridge-hackathon",
