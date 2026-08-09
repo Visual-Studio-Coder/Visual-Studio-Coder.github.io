@@ -1,5 +1,40 @@
 [
   {
+    "name": "EvoLoRA",
+    "description": "As a project that placed in the top 6 out of 69 projects, this project agentically trains specialized small language models for any use case.",
+    "html_url": "https://github.com/Visual-Studio-Coder/EvoLoRA",
+    "homepage": "https://youtu.be/4lz4LjBrG7I",
+    "language": "Python",
+    "topics": [],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-08-09T06:38:12Z",
+    "pushed_at": "2026-07-30T02:44:05Z"
+  },
+  {
+    "name": "portable-piano",
+    "description": "A native floating piano keyboard for macOS with customizable controls, instruments, and recording.",
+    "html_url": "https://github.com/Visual-Studio-Coder/portable-piano",
+    "homepage": null,
+    "language": "Swift",
+    "topics": [
+      "macos",
+      "music",
+      "piano",
+      "screencapturekit",
+      "swift",
+      "swiftui"
+    ],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-08-09T00:31:59Z",
+    "pushed_at": "2026-08-09T00:31:41Z"
+  },
+  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Some interesting personal website.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -10,8 +45,8 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-07T10:15:10Z",
-    "pushed_at": "2026-08-07T10:13:41Z"
+    "updated_at": "2026-08-08T09:56:27Z",
+    "pushed_at": "2026-08-08T09:56:24Z"
   },
   {
     "name": "QR-Share-Pro",
@@ -417,20 +452,6 @@
     "archived": false,
     "updated_at": "2026-07-30T02:46:11Z",
     "pushed_at": "2026-07-30T02:46:06Z"
-  },
-  {
-    "name": "EvoLoRA",
-    "description": "As a project that placed in the top 6 out of 69 projects, this project agentically trains specialized small language models for any use case.",
-    "html_url": "https://github.com/Visual-Studio-Coder/EvoLoRA",
-    "homepage": "https://youtu.be/4lz4LjBrG7I",
-    "language": "Python",
-    "topics": [],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-07-30T02:44:17Z",
-    "pushed_at": "2026-07-30T02:44:05Z"
   },
   {
     "name": "Force",
