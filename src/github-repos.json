@@ -1,17 +1,40 @@
 [
   {
-    "name": "EvoLoRA",
-    "description": "As a project that placed in the top 6 out of 69 projects, this project agentically trains specialized small language models for any use case.",
-    "html_url": "https://github.com/Visual-Studio-Coder/EvoLoRA",
-    "homepage": "https://youtu.be/4lz4LjBrG7I",
-    "language": "Python",
-    "topics": [],
-    "stargazers_count": 2,
+    "name": "find-my-devices-raycast",
+    "description": "A macOS Raycast extension for listing eligible Apple Find My devices and sending Play Sound requests.",
+    "html_url": "https://github.com/Visual-Studio-Coder/find-my-devices-raycast",
+    "homepage": null,
+    "language": "TypeScript",
+    "topics": [
+      "apple-devices",
+      "find-my",
+      "macos",
+      "pyicloud",
+      "python",
+      "raycast",
+      "raycast-extension",
+      "typescript"
+    ],
+    "stargazers_count": 0,
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-09T06:38:12Z",
-    "pushed_at": "2026-07-30T02:44:05Z"
+    "updated_at": "2026-08-10T02:23:28Z",
+    "pushed_at": "2026-08-10T02:23:25Z"
+  },
+  {
+    "name": "raycast-extensions",
+    "description": "Everything you need to extend Raycast.",
+    "html_url": "https://github.com/Visual-Studio-Coder/raycast-extensions",
+    "homepage": "https://developers.raycast.com",
+    "language": "TypeScript",
+    "topics": [],
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "fork": true,
+    "archived": false,
+    "updated_at": "2026-08-10T02:02:16Z",
+    "pushed_at": "2026-08-10T02:23:47Z"
   },
   {
     "name": "portable-piano",
@@ -27,11 +50,11 @@
       "swift",
       "swiftui"
     ],
-    "stargazers_count": 0,
+    "stargazers_count": 1,
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-09T00:31:59Z",
+    "updated_at": "2026-08-09T18:22:16Z",
     "pushed_at": "2026-08-09T00:31:41Z"
   },
   {
@@ -45,8 +68,22 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-08T09:56:27Z",
-    "pushed_at": "2026-08-08T09:56:24Z"
+    "updated_at": "2026-08-09T09:59:34Z",
+    "pushed_at": "2026-08-09T09:59:05Z"
+  },
+  {
+    "name": "EvoLoRA",
+    "description": "As a project that placed in the top 6 out of 69 projects, this project agentically trains specialized small language models for any use case.",
+    "html_url": "https://github.com/Visual-Studio-Coder/EvoLoRA",
+    "homepage": "https://youtu.be/4lz4LjBrG7I",
+    "language": "Python",
+    "topics": [],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-08-09T06:38:12Z",
+    "pushed_at": "2026-07-30T02:44:05Z"
   },
   {
     "name": "QR-Share-Pro",
@@ -517,20 +554,6 @@
     "pushed_at": "2023-09-22T03:43:03Z"
   },
   {
-    "name": "raycast-extensions",
-    "description": "Everything you need to extend Raycast.",
-    "html_url": "https://github.com/Visual-Studio-Coder/raycast-extensions",
-    "homepage": "https://developers.raycast.com",
-    "language": "TypeScript",
-    "topics": [],
-    "stargazers_count": 3,
-    "forks_count": 0,
-    "fork": true,
-    "archived": false,
-    "updated_at": "2026-02-07T04:37:30Z",
-    "pushed_at": "2026-07-30T03:12:45Z"
-  },
-  {
     "name": "LRU_Cache",
     "description": "Java implementation of a Least Recently Used cache, utilizing HashMap and doubly-linked LinkedList.",
     "html_url": "https://github.com/Visual-Studio-Coder/LRU_Cache",
@@ -755,20 +778,6 @@
     "pushed_at": "2024-10-01T22:21:05Z"
   },
   {
-    "name": "USACO-Attempts",
-    "description": null,
-    "html_url": "https://github.com/Visual-Studio-Coder/USACO-Attempts",
-    "homepage": null,
-    "language": "Java",
-    "topics": [],
-    "stargazers_count": 2,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2025-05-25T06:13:17Z",
-    "pushed_at": "2024-10-17T02:11:26Z"
-  },
-  {
     "name": "raycast-metronome",
     "description": null,
     "html_url": "https://github.com/Visual-Studio-Coder/raycast-metronome",
@@ -781,6 +790,20 @@
     "archived": false,
     "updated_at": "2025-05-25T06:13:17Z",
     "pushed_at": "2024-12-05T14:54:09Z"
+  },
+  {
+    "name": "USACO-Attempts",
+    "description": null,
+    "html_url": "https://github.com/Visual-Studio-Coder/USACO-Attempts",
+    "homepage": null,
+    "language": "Java",
+    "topics": [],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2025-05-25T06:13:17Z",
+    "pushed_at": "2024-10-17T02:11:26Z"
   },
   {
     "name": "open-source-ios-apps",
