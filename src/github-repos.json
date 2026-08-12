@@ -1,17 +1,26 @@
 [
   {
     "name": "Visual-Studio-Coder.github.io",
-    "description": "Some interesting personal website.",
+    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
     "homepage": "https://visual-studio-coder.github.io/",
     "language": "CSS",
-    "topics": [],
+    "topics": [
+      "github-actions",
+      "github-pages",
+      "javascript",
+      "open-source",
+      "personal-website",
+      "portfolio",
+      "react",
+      "vite"
+    ],
     "stargazers_count": 1,
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-12T10:28:55Z",
-    "pushed_at": "2026-08-12T10:28:50Z"
+    "updated_at": "2026-08-12T21:21:12Z",
+    "pushed_at": "2026-08-12T21:20:58Z"
   },
   {
     "name": "find-my-devices-raycast",
