@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import snapshotRepos from './github-repos.json'
+import snapshotStats from './github-stats.json'
 import './App.css'
 
 const FEATURED_REPOS = [
@@ -380,7 +381,7 @@ function App() {
             <div><strong>{repos.length}</strong><span>Original public repos</span></div>
             <div><strong>{stars}</strong><span>Community stars</span></div>
             <div><strong>{languages.length}</strong><span>Languages in motion</span></div>
-            <div><strong>10h</strong><span>To automate 10 seconds</span></div>
+            <div><strong>{snapshotStats.merged_pull_requests}</strong><span>Merged pull requests</span></div>
           </div>
         </section>
 

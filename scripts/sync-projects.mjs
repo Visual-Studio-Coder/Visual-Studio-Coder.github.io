@@ -4,7 +4,8 @@ import { fileURLToPath } from 'node:url'
 
 const username = 'Visual-Studio-Coder'
 const scriptDirectory = dirname(fileURLToPath(import.meta.url))
-const outputPath = resolve(scriptDirectory, '../src/github-repos.json')
+const reposOutputPath = resolve(scriptDirectory, '../src/github-repos.json')
+const statsOutputPath = resolve(scriptDirectory, '../src/github-stats.json')
 const token = process.env.GITHUB_TOKEN
 
 const headers = {
@@ -25,6 +26,21 @@ async function fetchPage(page) {
   }
 
   return response.json()
+}
+
+async function fetchMergedPullRequestCount() {
+  const query = encodeURIComponent(`author:${username} is:pr is:merged`)
+  const response = await fetch(
+    `https://api.github.com/search/issues?q=${query}&per_page=1`,
+    { headers },
+  )
+
+  if (!response.ok) {
+    throw new Error(`GitHub returned ${response.status}: ${await response.text()}`)
+  }
+
+  const result = await response.json()
+  return result.total_count
 }
 
 const repos = []
@@ -49,6 +65,12 @@ const snapshot = repos.map((repo) => ({
   pushed_at: repo.pushed_at,
 }))
 
-await mkdir(dirname(outputPath), { recursive: true })
-await writeFile(outputPath, `${JSON.stringify(snapshot, null, 2)}\n`)
-console.log(`Synced ${snapshot.length} public repositories to ${outputPath}`)
+const stats = {
+  merged_pull_requests: await fetchMergedPullRequestCount(),
+}
+
+await mkdir(dirname(reposOutputPath), { recursive: true })
+await writeFile(reposOutputPath, `${JSON.stringify(snapshot, null, 2)}\n`)
+await writeFile(statsOutputPath, `${JSON.stringify(stats, null, 2)}\n`)
+console.log(`Synced ${snapshot.length} public repositories to ${reposOutputPath}`)
+console.log(`Synced GitHub profile statistics to ${statsOutputPath}`)
