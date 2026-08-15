@@ -1,5 +1,26 @@
 [
   {
+    "name": "portable-piano",
+    "description": "A native floating piano keyboard for macOS with customizable controls, instruments, and recording.",
+    "html_url": "https://github.com/Visual-Studio-Coder/portable-piano",
+    "homepage": null,
+    "language": "Swift",
+    "topics": [
+      "macos",
+      "music",
+      "piano",
+      "screencapturekit",
+      "swift",
+      "swiftui"
+    ],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-08-14T14:36:15Z",
+    "pushed_at": "2026-08-09T00:31:41Z"
+  },
+  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -19,8 +40,8 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-13T10:30:06Z",
-    "pushed_at": "2026-08-13T10:30:01Z"
+    "updated_at": "2026-08-14T10:19:36Z",
+    "pushed_at": "2026-08-14T10:19:24Z"
   },
   {
     "name": "find-my-devices-raycast",
@@ -58,27 +79,6 @@
     "archived": false,
     "updated_at": "2026-08-10T02:02:16Z",
     "pushed_at": "2026-08-10T02:23:47Z"
-  },
-  {
-    "name": "portable-piano",
-    "description": "A native floating piano keyboard for macOS with customizable controls, instruments, and recording.",
-    "html_url": "https://github.com/Visual-Studio-Coder/portable-piano",
-    "homepage": null,
-    "language": "Swift",
-    "topics": [
-      "macos",
-      "music",
-      "piano",
-      "screencapturekit",
-      "swift",
-      "swiftui"
-    ],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-08-09T18:22:16Z",
-    "pushed_at": "2026-08-09T00:31:41Z"
   },
   {
     "name": "EvoLoRA",
