@@ -1,5 +1,19 @@
 [
   {
+    "name": "autolab-for-lynbrook-high-school",
+    "description": "Save time by using this VSCode extension to download your assignments and submit them. No more dealing with annoying Finder windows, zip files, and filling out Javadoc.",
+    "html_url": "https://github.com/Visual-Studio-Coder/autolab-for-lynbrook-high-school",
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=Visual-Studio-Coder.autolab-for-lynbrook-high-school",
+    "language": "JavaScript",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-08-22T06:49:57Z",
+    "pushed_at": "2026-08-22T06:49:28Z"
+  },
+  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -19,8 +33,8 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-20T09:52:34Z",
-    "pushed_at": "2026-08-20T09:52:12Z"
+    "updated_at": "2026-08-21T09:55:40Z",
+    "pushed_at": "2026-08-21T09:54:01Z"
   },
   {
     "name": "raycast-metronome",
@@ -382,20 +396,6 @@
     "archived": false,
     "updated_at": "2026-07-30T02:58:02Z",
     "pushed_at": "2026-07-30T02:57:55Z"
-  },
-  {
-    "name": "autolab-for-lynbrook-high-school",
-    "description": "Save time by using this VSCode extension to download your assignments and submit them. No more dealing with annoying Finder windows, zip files, and filling out Javadoc.",
-    "html_url": "https://github.com/Visual-Studio-Coder/autolab-for-lynbrook-high-school",
-    "homepage": "https://marketplace.visualstudio.com/items?itemName=Visual-Studio-Coder.autolab-for-lynbrook-high-school",
-    "language": "JavaScript",
-    "topics": [],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-07-30T02:57:46Z",
-    "pushed_at": "2026-07-30T02:57:41Z"
   },
   {
     "name": "autograding-server",
