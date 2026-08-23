@@ -1,19 +1,5 @@
 [
   {
-    "name": "autolab-for-lynbrook-high-school",
-    "description": "Save time by using this VSCode extension to download your assignments and submit them. No more dealing with annoying Finder windows, zip files, and filling out Javadoc.",
-    "html_url": "https://github.com/Visual-Studio-Coder/autolab-for-lynbrook-high-school",
-    "homepage": "https://marketplace.visualstudio.com/items?itemName=Visual-Studio-Coder.autolab-for-lynbrook-high-school",
-    "language": "JavaScript",
-    "topics": [],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-08-22T06:49:57Z",
-    "pushed_at": "2026-08-22T06:49:28Z"
-  },
-  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -33,8 +19,22 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-21T09:55:40Z",
-    "pushed_at": "2026-08-21T09:54:01Z"
+    "updated_at": "2026-08-22T09:46:46Z",
+    "pushed_at": "2026-08-22T09:45:21Z"
+  },
+  {
+    "name": "autolab-for-lynbrook-high-school",
+    "description": "Save time by using this VSCode extension to download your assignments and submit them. No more dealing with annoying Finder windows, zip files, and filling out Javadoc.",
+    "html_url": "https://github.com/Visual-Studio-Coder/autolab-for-lynbrook-high-school",
+    "homepage": "https://marketplace.visualstudio.com/items?itemName=Visual-Studio-Coder.autolab-for-lynbrook-high-school",
+    "language": "JavaScript",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-08-22T06:49:57Z",
+    "pushed_at": "2026-08-22T06:49:28Z"
   },
   {
     "name": "raycast-metronome",
@@ -120,7 +120,7 @@
     "fork": true,
     "archived": false,
     "updated_at": "2026-08-10T02:02:16Z",
-    "pushed_at": "2026-08-10T02:23:47Z"
+    "pushed_at": "2026-08-23T06:52:14Z"
   },
   {
     "name": "EvoLoRA",
