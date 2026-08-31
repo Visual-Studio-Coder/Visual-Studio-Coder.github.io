@@ -1,19 +1,5 @@
 [
   {
-    "name": "desktop",
-    "description": "Welcome to a calmer internet",
-    "html_url": "https://github.com/Visual-Studio-Coder/desktop",
-    "homepage": "https://zen-browser.app",
-    "language": null,
-    "topics": [],
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "fork": true,
-    "archived": false,
-    "updated_at": "2026-08-29T19:19:17Z",
-    "pushed_at": "2026-08-29T19:34:08Z"
-  },
-  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -33,8 +19,22 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-08-29T14:32:02Z",
-    "pushed_at": "2026-08-29T14:31:43Z"
+    "updated_at": "2026-08-30T14:26:36Z",
+    "pushed_at": "2026-08-30T14:26:26Z"
+  },
+  {
+    "name": "desktop",
+    "description": "Welcome to a calmer internet",
+    "html_url": "https://github.com/Visual-Studio-Coder/desktop",
+    "homepage": "https://zen-browser.app",
+    "language": null,
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "fork": true,
+    "archived": false,
+    "updated_at": "2026-08-29T19:19:17Z",
+    "pushed_at": "2026-08-29T19:34:08Z"
   },
   {
     "name": "autolab-for-lynbrook-high-school",
