@@ -1,5 +1,28 @@
 [
   {
+    "name": "Visual-Studio-Coder.github.io",
+    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
+    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
+    "homepage": "https://visual-studio-coder.github.io/",
+    "language": "CSS",
+    "topics": [
+      "github-actions",
+      "github-pages",
+      "javascript",
+      "open-source",
+      "personal-website",
+      "portfolio",
+      "react",
+      "vite"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-09-03T13:37:43Z",
+    "pushed_at": "2026-09-03T13:37:39Z"
+  },
+  {
     "name": "mnist_linux_benchmark",
     "description": "This project compares C++, Rust, and Python for training an MLP on MNIST, focusing on performance metrics like execution time, memory usage, and energy consumption.",
     "html_url": "https://github.com/Visual-Studio-Coder/mnist_linux_benchmark",
@@ -21,29 +44,6 @@
     "archived": false,
     "updated_at": "2026-09-02T16:00:00Z",
     "pushed_at": "2026-07-30T03:03:55Z"
-  },
-  {
-    "name": "Visual-Studio-Coder.github.io",
-    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
-    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
-    "homepage": "https://visual-studio-coder.github.io/",
-    "language": "CSS",
-    "topics": [
-      "github-actions",
-      "github-pages",
-      "javascript",
-      "open-source",
-      "personal-website",
-      "portfolio",
-      "react",
-      "vite"
-    ],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-09-02T13:47:02Z",
-    "pushed_at": "2026-09-02T13:43:04Z"
   },
   {
     "name": "desktop",
