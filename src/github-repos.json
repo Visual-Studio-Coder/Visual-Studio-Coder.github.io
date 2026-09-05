@@ -1,5 +1,19 @@
 [
   {
+    "name": "Force",
+    "description": "Ability to use Apple Watch to control Mac's cursor. Useful when trying to control your Mac in clamshell mode when your Magic Mouse is still charging.",
+    "html_url": "https://github.com/Visual-Studio-Coder/Force",
+    "homepage": null,
+    "language": "Swift",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-09-05T10:04:13Z",
+    "pushed_at": "2026-07-30T02:39:59Z"
+  },
+  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -19,8 +33,8 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-09-03T13:37:43Z",
-    "pushed_at": "2026-09-03T13:37:39Z"
+    "updated_at": "2026-09-04T13:37:20Z",
+    "pushed_at": "2026-09-04T13:34:17Z"
   },
   {
     "name": "mnist_linux_benchmark",
@@ -540,20 +554,6 @@
     "archived": false,
     "updated_at": "2026-07-30T02:46:11Z",
     "pushed_at": "2026-07-30T02:46:06Z"
-  },
-  {
-    "name": "Force",
-    "description": "Ability to use Apple Watch to control Mac's cursor. Useful when trying to control your Mac in clamshell mode when your Magic Mouse is still charging.",
-    "html_url": "https://github.com/Visual-Studio-Coder/Force",
-    "homepage": null,
-    "language": "Swift",
-    "topics": [],
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-07-30T02:40:04Z",
-    "pushed_at": "2026-07-30T02:39:59Z"
   },
   {
     "name": "parkingSpotFinder",
