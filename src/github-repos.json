@@ -1,5 +1,28 @@
 [
   {
+    "name": "Visual-Studio-Coder.github.io",
+    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
+    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
+    "homepage": "https://visual-studio-coder.github.io/",
+    "language": "CSS",
+    "topics": [
+      "github-actions",
+      "github-pages",
+      "javascript",
+      "open-source",
+      "personal-website",
+      "portfolio",
+      "react",
+      "vite"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-09-07T15:05:23Z",
+    "pushed_at": "2026-09-07T15:04:57Z"
+  },
+  {
     "name": "Recap",
     "description": "Recap, an iOS and Android app developed by Vaibhav Satishkumar, enables students to generate personalized quizzes from diverse content types, including PDFs, YouTube videos, web links, and images.",
     "html_url": "https://github.com/Visual-Studio-Coder/Recap",
@@ -30,29 +53,6 @@
     "archived": false,
     "updated_at": "2026-09-06T20:11:14Z",
     "pushed_at": "2026-07-30T02:56:24Z"
-  },
-  {
-    "name": "Visual-Studio-Coder.github.io",
-    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
-    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
-    "homepage": "https://visual-studio-coder.github.io/",
-    "language": "CSS",
-    "topics": [
-      "github-actions",
-      "github-pages",
-      "javascript",
-      "open-source",
-      "personal-website",
-      "portfolio",
-      "react",
-      "vite"
-    ],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-09-06T12:54:51Z",
-    "pushed_at": "2026-09-06T12:54:47Z"
   },
   {
     "name": "Force",
