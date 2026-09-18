@@ -1,28 +1,5 @@
 [
   {
-    "name": "Visual-Studio-Coder.github.io",
-    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
-    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
-    "homepage": "https://visual-studio-coder.github.io/",
-    "language": "CSS",
-    "topics": [
-      "github-actions",
-      "github-pages",
-      "javascript",
-      "open-source",
-      "personal-website",
-      "portfolio",
-      "react",
-      "vite"
-    ],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-09-16T14:13:52Z",
-    "pushed_at": "2026-09-16T14:13:48Z"
-  },
-  {
     "name": "Recap",
     "description": "Recap, an iOS and Android app developed by Vaibhav Satishkumar, enables students to generate personalized quizzes from diverse content types, including PDFs, YouTube videos, web links, and images.",
     "html_url": "https://github.com/Visual-Studio-Coder/Recap",
@@ -47,12 +24,35 @@
       "student",
       "tool"
     ],
-    "stargazers_count": 37,
+    "stargazers_count": 38,
     "forks_count": 5,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-09-06T20:11:14Z",
+    "updated_at": "2026-09-17T22:14:55Z",
     "pushed_at": "2026-07-30T02:56:24Z"
+  },
+  {
+    "name": "Visual-Studio-Coder.github.io",
+    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
+    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
+    "homepage": "https://visual-studio-coder.github.io/",
+    "language": "CSS",
+    "topics": [
+      "github-actions",
+      "github-pages",
+      "javascript",
+      "open-source",
+      "personal-website",
+      "portfolio",
+      "react",
+      "vite"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-09-17T14:19:38Z",
+    "pushed_at": "2026-09-17T14:19:34Z"
   },
   {
     "name": "Force",
