@@ -1,5 +1,28 @@
 [
   {
+    "name": "Visual-Studio-Coder.github.io",
+    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
+    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
+    "homepage": "https://visual-studio-coder.github.io/",
+    "language": "CSS",
+    "topics": [
+      "github-actions",
+      "github-pages",
+      "javascript",
+      "open-source",
+      "personal-website",
+      "portfolio",
+      "react",
+      "vite"
+    ],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-10-04T14:48:44Z",
+    "pushed_at": "2026-10-04T14:48:40Z"
+  },
+  {
     "name": "imslp-music",
     "description": "Native IMSLP music player for macOS, iPhone, and iPad, built with SwiftUI, AVFoundation, and SwiftData.",
     "html_url": "https://github.com/Visual-Studio-Coder/imslp-music",
@@ -23,29 +46,6 @@
     "archived": false,
     "updated_at": "2026-10-03T19:37:31Z",
     "pushed_at": "2026-10-03T19:32:08Z"
-  },
-  {
-    "name": "Visual-Studio-Coder.github.io",
-    "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
-    "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
-    "homepage": "https://visual-studio-coder.github.io/",
-    "language": "CSS",
-    "topics": [
-      "github-actions",
-      "github-pages",
-      "javascript",
-      "open-source",
-      "personal-website",
-      "portfolio",
-      "react",
-      "vite"
-    ],
-    "stargazers_count": 1,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-10-03T14:19:48Z",
-    "pushed_at": "2026-10-03T14:19:44Z"
   },
   {
     "name": "Recap",
