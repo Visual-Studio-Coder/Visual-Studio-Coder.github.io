@@ -1,19 +1,5 @@
 [
   {
-    "name": "EvoLoRA",
-    "description": "As a project that placed in the top 6 out of 69 projects, this project agentically trains specialized small language models for any use case.",
-    "html_url": "https://github.com/Visual-Studio-Coder/EvoLoRA",
-    "homepage": "https://youtu.be/4lz4LjBrG7I",
-    "language": "Python",
-    "topics": [],
-    "stargazers_count": 3,
-    "forks_count": 0,
-    "fork": false,
-    "archived": false,
-    "updated_at": "2026-10-20T22:19:01Z",
-    "pushed_at": "2026-07-30T02:44:05Z"
-  },
-  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -33,8 +19,22 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-10-20T14:20:49Z",
-    "pushed_at": "2026-10-20T14:20:44Z"
+    "updated_at": "2026-10-21T14:36:22Z",
+    "pushed_at": "2026-10-21T14:33:35Z"
+  },
+  {
+    "name": "EvoLoRA",
+    "description": "As a project that placed in the top 6 out of 69 projects, this project agentically trains specialized small language models for any use case.",
+    "html_url": "https://github.com/Visual-Studio-Coder/EvoLoRA",
+    "homepage": "https://youtu.be/4lz4LjBrG7I",
+    "language": "Python",
+    "topics": [],
+    "stargazers_count": 3,
+    "forks_count": 0,
+    "fork": false,
+    "archived": false,
+    "updated_at": "2026-10-20T22:19:01Z",
+    "pushed_at": "2026-07-30T02:44:05Z"
   },
   {
     "name": "imslp-music",
