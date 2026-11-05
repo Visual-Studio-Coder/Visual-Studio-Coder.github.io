@@ -1,5 +1,19 @@
 [
   {
+    "name": "control-panel-for-twitter",
+    "description": "Browser extension which gives you more control over your Twitter timeline and adds missing features and UI improvements - for desktop and mobile",
+    "html_url": "https://github.com/Visual-Studio-Coder/control-panel-for-twitter",
+    "homepage": "https://soitis.dev/control-panel-for-twitter",
+    "language": null,
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "fork": true,
+    "archived": false,
+    "updated_at": "2026-11-05T04:23:36Z",
+    "pushed_at": "2026-11-05T04:47:50Z"
+  },
+  {
     "name": "Visual-Studio-Coder.github.io",
     "description": "Personal portfolio built with React and Vite. It shows open-source projects and daily GitHub statistics.",
     "html_url": "https://github.com/Visual-Studio-Coder/Visual-Studio-Coder.github.io",
@@ -19,8 +33,8 @@
     "forks_count": 0,
     "fork": false,
     "archived": false,
-    "updated_at": "2026-11-03T17:07:26Z",
-    "pushed_at": "2026-11-03T17:07:21Z"
+    "updated_at": "2026-11-04T17:19:17Z",
+    "pushed_at": "2026-11-04T17:19:12Z"
   },
   {
     "name": "EvoLoRA",
